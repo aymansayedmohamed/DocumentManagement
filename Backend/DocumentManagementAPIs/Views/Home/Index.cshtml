@@ -1,0 +1,226 @@
+﻿
+<form>
+    <div>
+        <label for="fileUpload" />
+        Select File to Upload: <input id="fileUpload" type="file" />
+
+        <input id="btnUploadFile" type="button" value="Upload File" />
+    </div>
+</form>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $('#btnUploadFile').on('click', function () {
+
+            var data = new FormData();
+
+            var files = $("#fileUpload").get(0).files;
+
+            // Add the uploaded image content to the form data collection
+            if (files.length > 0) {
+                data.append("UploadedImage", files[0]);
+            }
+
+            // Make Ajax request with the contentType = false, and procesDate = false
+            $.ajax({
+                type: "POST",
+                url: "/api/Documents/UploadFiles",
+                contentType: false,
+                processData: false,
+                data: data
+            });
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script language="javascript">
+    $(document).ready(function () {
+        var file_input = $('#file_input');
+        var submit_btn = $('#submit_btn');
+        var upload_form = $('#upload_form');
+        var progress_label = $("#progressLabel");
+        var chunk_size = 1 * 1024 * 1024; // 1Mbyte Chunk
+        var offset = 0;
+        var retry = 0;
+        file_input.on('change', onFilesSelected);
+        upload_form.submit(uploadForm);
+
+
+        function uploadChunk(evt) {
+            var upload_size = evt.target.result.length;
+            var form = document.getElementById("upload_form");
+            var formData = new FormData(form);
+            formData.append("uploadfilename", file_input.val());
+            formData.append("uploadfileoffset", offset);
+            formData.append("uploadfilesize", upload_size);
+            formData.append("uploadchunkdata", evt.target.result);
+            $.ajax({
+                type: 'post',
+                data: formData,
+                processData: false,
+                contentType: false,
+                url: "/api/Documents/UploadFiles",
+                success: function () {
+                    offset += evt.target.result.length;
+                    readSlice(evt);
+                },
+                error: function () {
+                    if (++retry >= 3) {
+                        progress_label.html("Upload failed");
+                    }
+                    else {
+                        debugger;
+                        retry = 0;
+                        uploadSlice(evt);
+                    }
+                }
+            });
+        }
+
+        function readCallback(evt) {
+            if (evt.target.error == null) {
+                debugger;
+                uploadChunk(evt);
+            } else {
+                progress_label.html("File read error on disk: " + evt.target.error);
+                return;
+            }
+        }
+
+        function readSlice(e) {
+            debugger;
+            var files = document.getElementById("file_input");
+            var file = files.files[0];
+            var reader = new FileReader();
+            if (offset < file.size) {
+                progress_label.html("Uploading: " + (100 * offset / file.size).toFixed(0) + "%");
+                var blob = file.slice(offset, offset + chunk_size);
+                reader.onload = readCallback;
+                reader.readAsDataURL(blob);
+            }
+            else {
+                progress_label.html("Upload complete");
+            }
+        }
+
+        function uploadForm(e) {
+            e.preventDefault();
+            offset = 0;
+            readSlice(e);
+            progress_label.html("Starting...");
+
+        }
+
+        function onFilesSelected(e) {
+            submit_btn.attr('disabled', false);
+        }
+    });
+
+</script>
+=
+<form id="upload_form" action="/api/Documents/UploadFiles" method="post">
+    <label for="file_input">Select Files:</label>
+    <input id="file_input" type="file">
+    <div>
+        <input id="submit_btn" type="submit" value="Upload" disabled="true">
+    </div>
+</form>
+<label id="progressLabel">No file selected</label>
+
+
+
+
+
+
+
+
+
+
+
+
+<p>The following code demonstrates partitioning/splitting a large file into chunks and streaming them to the server</p>
+
+<input type="file" id="uploadFile" name="file" />  <a href="#" id="btnUpload" class="btn btn-primary">Upload file</a>
+<label class="progressLabel">No file selected</label>
+
+<script>
+
+    $(document).ready(function () {
+        var progress_label = $(".progressLabel");
+
+        $('#btnUpload').click(function () {
+            UploadFile($('#uploadFile')[0].files);
+        }
+        )
+
+        var uploadedChuncksCount = 0;
+
+        function UploadFileChunk(Chunk, FileName) {
+            var FD = new FormData();
+            FD.append('file', Chunk, FileName);
+            $.ajax({
+                type: "POST",
+                url: '/api/Documents/UploadFiles',
+                contentType: false,
+                processData: false,
+                data: FD,
+                success: function () {
+                    uploadedChuncksCount++;
+                    progress_label.html("Uploading: " + ((100 * uploadedChuncksCount) / TotalParts).toFixed(0) + "%");
+                },
+            });
+        }
+
+        function UploadFile(TargetFile) {
+            uploadedChuncksCount = 0;
+            // create array to store the buffer chunks
+            var FileChunk = [];
+            // the file object itself that we will work with
+            var file = TargetFile[0];
+            // set up other initial vars
+            var MaxFileSizeMB = 1;
+            var BufferChunkSize = MaxFileSizeMB * (1024 * 1024);
+            var ReadBuffer_Size = 1024;
+            var FileStreamPos = 0;
+            // set the initial chunk length
+            var EndPos = BufferChunkSize;
+            var Size = file.size;
+
+            // add to the FileChunk array until we get to the end of the file
+            while (FileStreamPos < Size) {
+                // "slice" the file from the starting position/offset, to  the required length
+                FileChunk.push(file.slice(FileStreamPos, EndPos));
+                FileStreamPos = EndPos; // jump by the amount read
+                EndPos = FileStreamPos + BufferChunkSize; // set next chunk length
+            }
+            // get total number of "files" we will be sending
+            TotalParts = FileChunk.length;
+            var PartCount = 0;
+            // loop through, pulling the first item from the array each time and sending it
+            while (chunk = FileChunk.shift()) {
+                PartCount++;
+                // file name convention
+                var FilePartName = file.name + ".part_" + PartCount + "." + TotalParts;
+                // send the file
+                UploadFileChunk(chunk, FilePartName);
+                progress_label.html("Uploading: " + (100 * PartCount * BufferChunkSize / file.size).toFixed(0) + "%");
+
+            }
+        }
+
+    });
+
+</script>
+
+

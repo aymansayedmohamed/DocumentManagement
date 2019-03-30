@@ -1,0 +1,3781 @@
+2019/48/28 13:48:38,276 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 73d1be8b-2216-4e92-b558-26ed4465cac4
+  Content-Length: 517381
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryPB6Io9l1cf91cwTV
+} 
+2019/48/28 13:48:38,428 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Content-Type: application/json; charset=utf-8
+} 
+2019/32/28 14:32:32,221 INFO  DocumentManagementLogger.FileLogger [6] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a35f7bb0-aad7-48b9-b0e7-0671fc8b0859
+  Content-Length: 434601
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDh9ynJYgOkamw9Qv
+} 
+2019/32/28 14:32:32,361 INFO  DocumentManagementLogger.FileLogger [6] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/33/28 14:33:45,922 INFO  DocumentManagementLogger.FileLogger [6] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: f9a5cac1-de46-40b6-971e-b81458fd33b9
+  Content-Length: 3739086
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryqZ2j1ayZUAsHB2zc
+} 
+2019/39/28 14:39:12,095 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 161dd96a-9c29-4982-a931-95b354a38fc9
+  Content-Length: 4559466
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryeNzM8Oc6jYZghfrW
+} 
+2019/39/28 14:39:26,723 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 500, ReasonPhrase: 'Internal Server Error', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/39/28 14:39:36,593 INFO  DocumentManagementLogger.FileLogger [20] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: fb25e07b-bb21-4529-859d-469c43242e98
+  Content-Length: 3587597
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygFFiwAXvY0vwPyun
+} 
+2019/42/28 14:42:36,383 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: b086340d-f9df-497b-989b-1b3cfe7da7b5
+  Content-Length: 3637941
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryOsmQVjU4bZx2H4Sk
+} 
+2019/42/28 14:42:47,156 INFO  DocumentManagementLogger.FileLogger [13] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/43/28 14:43:22,369 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 7ad91cfa-6bcd-4e58-aab3-f5bff798e73d
+  Content-Length: 4559466
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryp6WF9leTYAZBQxrO
+} 
+2019/43/28 14:43:47,126 INFO  DocumentManagementLogger.FileLogger [14] Response: StatusCode: 500, ReasonPhrase: 'Internal Server Error', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/44/28 14:44:00,013 INFO  DocumentManagementLogger.FileLogger [16] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 6933351f-4b67-43ac-9aa1-0b913aa032b1
+  Content-Length: 9296515
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarymG1nRwMODelV8mZw
+} 
+2019/51/28 14:51:45,418 INFO  DocumentManagementLogger.FileLogger [5] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 311957da-7a97-46be-9f79-16ae8f743a4e
+  Content-Length: 9296515
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHAP3Irq7beahIEvG
+} 
+2019/51/28 14:51:47,622 INFO  DocumentManagementLogger.FileLogger [24] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/52/28 14:52:39,427 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 03e02aba-4be2-4bb1-a29a-cdf88ee8f0b8
+  Content-Length: 4559466
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryN212LvX4ptgNZSmp
+} 
+2019/53/28 14:53:56,443 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/57/28 14:57:51,071 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 74065405-e474-4312-a943-e5a1da89e4d8
+  Content-Length: 9296515
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryrA4YWWXXngONqi2h
+} 
+2019/57/28 14:57:56,546 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/58/28 14:58:30,296 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: c551ff85-ac00-480b-ae71-2f81a13ed0d1
+  Content-Length: 4559466
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryptrKH1MW4OWz6xsI
+} 
+2019/59/28 14:59:03,187 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/04/28 15:04:14,656 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 3d714b13-4f6d-4dfc-8519-592fc7b861d3
+  Content-Length: 15086
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzQBBFTGSpPecxtxl
+} 
+2019/04/28 15:04:15,668 INFO  DocumentManagementLogger.FileLogger [8] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/14/28 15:14:32,923 INFO  DocumentManagementLogger.FileLogger [23] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 386afeb7-3253-4017-836b-9f8d8a504bf1
+  Content-Length: 3754
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryEorVCy5hbEalmqtw
+} 
+2019/14/28 15:14:33,071 INFO  DocumentManagementLogger.FileLogger [23] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/20/28 15:20:18,386 INFO  DocumentManagementLogger.FileLogger [30] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 3cd843b1-fec8-44fd-91ed-45ef486a06a2
+  Content-Length: 124916
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarybmwAB5TQndicdSme
+} 
+2019/20/28 15:20:18,406 INFO  DocumentManagementLogger.FileLogger [30] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/21/28 16:21:10,255 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 5f558524-348d-4658-a46f-add64e661a00
+  Content-Length: 726
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryRINJ59lDajASVzj8
+} 
+2019/21/28 16:21:16,378 INFO  DocumentManagementLogger.FileLogger [8] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/21/28 16:21:37,439 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: ec8eafaf-37f0-42ec-a755-089b8d34aa56
+  Content-Length: 132020
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryM9CLnSrGeNBnKOmP
+} 
+2019/21/28 16:21:38,288 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/22/28 16:22:25,169 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: d746f430-5c28-4f6f-94ec-adf2ccdea573
+  Content-Length: 812
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryi2Y5k7ouZ6FR7VWn
+} 
+2019/22/28 16:22:25,954 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/04/28 17:04:14,436 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 803ce459-2f6a-4195-948f-38bff7918ed7
+  Content-Length: 97090
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHIjFuGnl0lZrDihF
+} 
+2019/04/28 17:04:23,982 INFO  DocumentManagementLogger.FileLogger [8] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+} 
+2019/04/28 17:04:43,411 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 86850657-b3f1-40b4-8ce0-43df2e60921c
+  Content-Length: 15086
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryk5Kx4OxxNN9tUQDB
+} 
+2019/04/28 17:04:44,143 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+} 
+2019/05/28 17:05:50,799 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 0d4099e0-0f56-40bc-99f3-39df356ba126
+  Content-Length: 18788
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryEknfKDlETMdYABdr
+} 
+2019/05/28 17:05:51,750 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+} 
+2019/38/28 18:38:32,882 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: f17c629d-bbf6-4ec8-a68b-04f82c4cc037
+  Content-Length: 124916
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarytzvyKXKHkT9cxZ4V
+} 
+2019/38/28 18:38:37,080 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 500, ReasonPhrase: 'Internal Server Error', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/39/28 18:39:10,849 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 8fc36078-ace4-4c00-b1ed-34afa6ccc948
+  Content-Length: 17438
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzWRcTKxfHmAFBRr7
+} 
+2019/39/28 18:39:11,992 INFO  DocumentManagementLogger.FileLogger [14] Response: StatusCode: 500, ReasonPhrase: 'Internal Server Error', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/39/28 18:39:38,995 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/readyForProcessingFiles
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a34bc323-5393-4a7c-b57f-dfac7a1f7476
+  Content-Length: 3754
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywRHK7I2gBB7nt9xD
+} 
+2019/39/28 18:39:43,833 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 500, ReasonPhrase: 'Internal Server Error', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/04/28 19:04:57,579 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/Home/Index
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 39700c09-cd50-47d6-9443-f44bde839408
+  Content-Length: 25026
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygW1rEGqBJXKPOt3W
+} 
+2019/05/28 19:05:01,801 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 500, ReasonPhrase: 'Internal Server Error', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/07/28 19:07:17,435 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: e60e26f8-5508-454c-baa4-a7dc4059da73
+  Content-Length: 20177
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1FOx0QAJyLk4YYxa
+} 
+2019/07/28 19:07:54,971 INFO  DocumentManagementLogger.FileLogger [8] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/09/28 19:09:13,490 INFO  DocumentManagementLogger.FileLogger [11] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 27a94575-4f18-4d20-a99b-3aefe21c3b8d
+  Content-Length: 1398629
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryfAuhwHj4552wyx6F
+} 
+2019/09/28 19:09:18,996 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/29/28 19:29:57,776 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 5087d81a-3485-4cb5-a76f-28e8b17e7e0d
+  Content-Length: 20177
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygGd98uq1JotkjnQU
+} 
+2019/30/28 19:30:14,340 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/31/28 19:31:03,917 INFO  DocumentManagementLogger.FileLogger [6] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 80bb69d2-934e-4b73-a7fe-41eeb5f41a4e
+  Content-Length: 1398629
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarynAp3AAm8BMXh8Diq
+} 
+2019/31/28 19:31:05,771 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Web.Http.HttpError, System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/41/28 19:41:26,702 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 446eaa73-a13a-492c-9203-c3b0008737f2
+  Content-Length: 1398629
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryUBnRij584G7ApoSF
+} 
+2019/41/28 19:41:34,489 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/41/28 19:41:47,835 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 7ca1a403-9db3-4b44-a86d-7e3f20dd409d
+  Content-Length: 1398635
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryEzGSuFhIMc7AE5Fv
+} 
+2019/41/28 19:41:50,220 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/41/28 19:41:58,368 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 0370629b-36d0-4b8a-8b5b-a1fa65156376
+  Content-Length: 1398635
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzSfL5AQsKJ3Zb5Yy
+} 
+2019/42/28 19:42:02,292 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:02,369 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 26c110ed-f159-4580-8e3f-279ad6e86f76
+  Content-Length: 1398635
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarySgpeiTnDZASfYGs1
+} 
+2019/42/28 19:42:02,532 INFO  DocumentManagementLogger.FileLogger [13] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:02,611 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 7edffdb9-ea9c-4efc-8e6f-357469c91ddc
+  Content-Length: 1398635
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4ADymZl21Txlqj6V
+} 
+2019/42/28 19:42:02,808 INFO  DocumentManagementLogger.FileLogger [13] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:02,892 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: f1b857e2-04b1-4e43-a53a-952cf3a6d6f1
+  Content-Length: 1398635
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryRzVMf0mQifiXDq0E
+} 
+2019/42/28 19:42:03,050 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:03,130 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a0ea2d83-94df-4958-8aa7-975ce9e934ae
+  Content-Length: 1398635
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryJbGB290439G0YWIR
+} 
+2019/42/28 19:42:03,331 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:03,438 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 602b2566-1ae5-4faa-a046-345a7e5a4e9d
+  Content-Length: 1398635
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryKKhSxxR4JqilehF0
+} 
+2019/42/28 19:42:03,576 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:03,667 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 931e70bc-744c-4539-a92a-3f74341c026a
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary34RFbsK16c7jzr9k
+} 
+2019/42/28 19:42:03,822 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:03,913 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 2e2968d8-ea4e-463e-a0e9-e027b08dd2e0
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygGeBeAUxjOJoEDS7
+} 
+2019/42/28 19:42:04,104 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:04,211 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 779ab1f6-e162-42c8-aa64-ce3949cd3259
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7RISg23yxTmYARUn
+} 
+2019/42/28 19:42:04,366 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:04,533 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 4ea2c720-b5a1-4833-a236-8c30024d57cc
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary6TtBu6fvSXDDeiPy
+} 
+2019/42/28 19:42:04,598 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:04,677 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 6466f8bd-ddf7-4139-b963-1ed9db6125f6
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryv5j7eQiFLejTsSm2
+} 
+2019/42/28 19:42:04,835 INFO  DocumentManagementLogger.FileLogger [14] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:04,916 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a413de26-0320-421c-891f-ffa0cdcabcaf
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHGXbidcgLeUWoqP2
+} 
+2019/42/28 19:42:05,024 INFO  DocumentManagementLogger.FileLogger [13] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:05,106 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 0ca63251-7968-4df9-b26d-85d0d3652e64
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary06QAbr1KurYqoXsY
+} 
+2019/42/28 19:42:05,280 INFO  DocumentManagementLogger.FileLogger [13] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:05,365 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 6b86f853-1db4-4e7f-aa9e-e52e0f6a1392
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary5azcxVFngAKbAkN4
+} 
+2019/42/28 19:42:05,519 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:05,600 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a0f870d5-2fe3-491e-ba3e-90782cb61ed8
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryOC1U36UTSOJmXBEL
+} 
+2019/42/28 19:42:05,698 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:05,780 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 47055989-c922-48c4-bc96-2678a41fe308
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary3GcKEqVJMDU4uV7b
+} 
+2019/42/28 19:42:05,939 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:06,015 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 43ec02a9-65cf-40a3-87c2-6632ef88e14a
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryUyPZCzdP2PaVTA3H
+} 
+2019/42/28 19:42:06,173 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:06,252 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: f725b199-9e85-4ae9-ba56-78b36cedf243
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryuifoDkGHoSPFKNCk
+} 
+2019/42/28 19:42:06,423 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:06,500 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: d98e5037-c846-442f-943b-b583486ba7db
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarydyllbpC6MoyUBM3H
+} 
+2019/42/28 19:42:06,656 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:06,759 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 6d18d7c6-ecc4-433e-9be4-3473f2d52ecb
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygZteTvYf3HrkOc9d
+} 
+2019/42/28 19:42:06,947 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:07,021 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: f96c105d-af2e-42a5-9458-be8004e9c33f
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBntlNdb92aqkHvlW
+} 
+2019/42/28 19:42:07,177 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:07,264 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 0bb572aa-78e4-4c2d-a9ea-c4289605174b
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVd5x1vk5pkOsMHcG
+} 
+2019/42/28 19:42:07,447 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:07,522 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 76eec29c-8b8a-4895-aaf3-3e8e347009cd
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryqUpI2eRlSBhmnok6
+} 
+2019/42/28 19:42:07,700 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:07,787 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 4c0c0b87-bda7-43ea-8524-9d3681cdcba4
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryeuew7ZdNkQ37Sgdh
+} 
+2019/42/28 19:42:07,945 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:08,040 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a16e92b9-2241-420d-a9fb-de72e07c6d07
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4HtZgF3awehFp0em
+} 
+2019/42/28 19:42:08,197 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:08,281 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 32ffdd1f-3337-41c6-9814-6841ba33ba0f
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryjpvxvSitTVSOcWiA
+} 
+2019/42/28 19:42:08,469 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:08,586 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: b8fc4056-9ebe-4b42-9bdb-4fd3c9a0fd2e
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryjYolL0cbu6BhOzZB
+} 
+2019/42/28 19:42:08,731 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:08,834 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: e7290b1f-8d7b-4374-b6af-038460fabb98
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1VSVKJLONpbuyAdv
+} 
+2019/42/28 19:42:08,996 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:09,067 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 22452f53-08d4-4bd9-b7fa-4f3685fe8025
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryzox33oj4w1UBKaxV
+} 
+2019/42/28 19:42:09,244 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:09,329 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: f803ec5e-df34-40b6-84ed-ccae99f60c18
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryD1tOOZeUJO8gYPzd
+} 
+2019/42/28 19:42:09,479 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:09,564 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 86df3450-e25e-467b-909d-a662b386609a
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryfnQ7PAD6RGcUK4H6
+} 
+2019/42/28 19:42:09,723 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:09,822 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 82c4382d-d019-4434-a6ce-16103bd2aa46
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary5YYY92Coysrcukn6
+} 
+2019/42/28 19:42:09,995 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:10,071 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: fbbe684e-7c43-4e56-81b9-506d3773a996
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLlzebURKmyEZcUX8
+} 
+2019/42/28 19:42:10,241 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:10,309 INFO  DocumentManagementLogger.FileLogger [27] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: cb4bc246-fb7e-4c58-b8a7-56331c7ceb73
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryRxQCgRbLBM84ZfK2
+} 
+2019/42/28 19:42:10,512 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:10,598 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 01aca242-53f1-4c51-b80a-0160cb895766
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryUmiB5TkgFLJuc1Z4
+} 
+2019/42/28 19:42:10,774 INFO  DocumentManagementLogger.FileLogger [13] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:10,846 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 9cfc9bed-d33b-45c4-aad1-0b4fe4ad3202
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVWsMp1RbAQ6vJ7i8
+} 
+2019/42/28 19:42:11,024 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:11,116 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 34a00eac-2f41-41e2-9910-1c59bc7eb801
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryW5G2WcsRhXC1Buzo
+} 
+2019/42/28 19:42:11,270 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:11,380 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 6c0a2922-ac97-4560-9114-625ccf6d67a6
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVZgwaSiqW7xgJuYJ
+} 
+2019/42/28 19:42:11,800 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:11,885 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a5f89311-b555-41a1-9bda-2ae17b43a07d
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryrd4eS8r3mKHkVngV
+} 
+2019/42/28 19:42:12,077 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:12,173 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 7cf0e6d1-6091-49c2-8671-13be486f6bf5
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarylxpyFB1ZaU8ekILN
+} 
+2019/42/28 19:42:12,344 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:12,439 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: f4d63bbd-d456-4687-80e9-0f1aeae0e457
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLXOXgrX1vQFY06WO
+} 
+2019/42/28 19:42:12,548 INFO  DocumentManagementLogger.FileLogger [13] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:12,629 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: e2f498d0-72bf-4d3f-915a-5081da8e5e8a
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryxxDVHFSGTzYT3ADE
+} 
+2019/42/28 19:42:12,805 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:12,895 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 3edaf9d7-1eca-41d2-b493-31efa551fed2
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryrCmuLvCcjcjCmVVt
+} 
+2019/42/28 19:42:13,075 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:13,162 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: c0d82f07-8212-45bd-b796-3416b8d260f5
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary6qoFAqNNh9Uce375
+} 
+2019/42/28 19:42:13,314 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:13,413 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 4a45d1d3-c449-4461-882b-b237d1082010
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryGNsPmj8RuChApHWS
+} 
+2019/42/28 19:42:13,569 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:13,645 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 06654190-95f4-466c-b59c-9218b668e8c4
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryWgG7pBc0c7fuwoci
+} 
+2019/42/28 19:42:13,811 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:13,917 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 8a157afe-006c-4494-a8ee-175ebb231fbb
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarynsZ1PD7SjSX20aIA
+} 
+2019/42/28 19:42:14,107 INFO  DocumentManagementLogger.FileLogger [13] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:14,191 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 21e3c8f4-8d61-4087-a66e-012235f3e348
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYmUjBtbqFGsClmOk
+} 
+2019/42/28 19:42:14,361 INFO  DocumentManagementLogger.FileLogger [14] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:14,439 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 1c6517fa-34d2-45bf-b1ac-61b08b87ea61
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryghH6DmqdgTYBprol
+} 
+2019/42/28 19:42:14,602 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:14,680 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 4bf35bbd-6cce-47fc-a345-c5926988e396
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarycMhXTCsAE9S2QfCq
+} 
+2019/42/28 19:42:14,811 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:14,885 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 7d72f50e-0dea-4e45-a28b-4a2b02340f66
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryYZI29DvKosohpHEb
+} 
+2019/42/28 19:42:15,069 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:15,156 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a53e72ed-b595-478d-9d9c-ed87f97eebdd
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryiEhTuCRy45NeyYbi
+} 
+2019/42/28 19:42:15,320 INFO  DocumentManagementLogger.FileLogger [13] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:15,403 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 0e676e24-5c92-47d4-94ff-ac7b8928e807
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarydu9k2FeUDI3Lbcc3
+} 
+2019/42/28 19:42:15,545 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:15,618 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: c94b368d-1386-4e95-9874-9c2a2146d1db
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryWB2XdoA12BbmCZKq
+} 
+2019/42/28 19:42:15,785 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:15,967 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: c8101343-6bd4-498b-85aa-fb1cf81c76e1
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypseX5PJEv5BaXb8A
+} 
+2019/42/28 19:42:16,255 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:16,372 INFO  DocumentManagementLogger.FileLogger [27] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 0a54e5c9-9941-4a76-9e21-eefb3f1663a0
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarycY3ddNJYomrr9ttM
+} 
+2019/42/28 19:42:16,511 INFO  DocumentManagementLogger.FileLogger [14] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:16,599 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 3684e15f-ca23-4473-b36b-422526b7d8dc
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarysdlIVT3UCe4TFqBA
+} 
+2019/42/28 19:42:16,781 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:16,869 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: bf1d9cdd-0adf-442c-b636-a7405127b96e
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4JuS6y83wSonyGgy
+} 
+2019/42/28 19:42:17,028 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:17,113 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 46ce11ff-d991-46b7-a327-4b40daa87cfd
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryz8gPp3kIGBpR16vw
+} 
+2019/42/28 19:42:17,271 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:17,366 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 95fa1145-1344-4ff5-b0fc-dc31ba4525a1
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryyyquMvB6bhNWuNOD
+} 
+2019/42/28 19:42:17,529 INFO  DocumentManagementLogger.FileLogger [14] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:17,646 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 63fab4af-5017-44ea-9fd6-75fa15a4e8d5
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarylLqkdtxAj584BylL
+} 
+2019/42/28 19:42:17,935 INFO  DocumentManagementLogger.FileLogger [14] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:18,037 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 4b14f4dc-b3f1-480f-a0e1-ad9b93f8712d
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarydpfuRsd1tJduLslq
+} 
+2019/42/28 19:42:18,214 INFO  DocumentManagementLogger.FileLogger [14] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:18,306 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 1f177f0f-a845-4601-ba06-592849f2fce2
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywqX4lRmxjMqnOBGG
+} 
+2019/42/28 19:42:18,494 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:18,580 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 0c0cb55e-99a4-48ad-8bcd-62fa0fefa59d
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypvZcOnxQAQFCjHme
+} 
+2019/42/28 19:42:18,755 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:18,837 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a556cf5f-ab4a-4ffe-b2c4-ffb3bd11982d
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarypdZBM6amoT1AusS8
+} 
+2019/42/28 19:42:19,007 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:19,094 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: ca8a3d3f-534e-43f7-980c-e3e72388fc5b
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarycuGkmyrQBjjESRpb
+} 
+2019/42/28 19:42:19,259 INFO  DocumentManagementLogger.FileLogger [13] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:19,535 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 95cd0b88-fe69-4e28-aaff-09646fc9c008
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarylaRDB1eZyAf588MU
+} 
+2019/42/28 19:42:19,630 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:19,702 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 217dfc08-8b01-48c4-9fbd-73ab49cf75c4
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarys7o3HUzBaDWCd6BR
+} 
+2019/42/28 19:42:19,871 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:19,949 INFO  DocumentManagementLogger.FileLogger [13] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: d3c09f53-f870-4ce7-ac30-83a6e21da154
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryyBJ9qAkwZHuPbeRd
+} 
+2019/42/28 19:42:20,065 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:20,141 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 083e07d6-7094-42f2-bd30-72acbf329b6a
+  Content-Length: 1398636
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryuI3AiDxF5k4SkFiE
+} 
+2019/42/28 19:42:20,310 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:20,386 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 2bff1e3a-5d2d-4740-aa24-d62e6d83212f
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary4u6hntmGNG32SSUV
+} 
+2019/42/28 19:42:20,557 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:20,631 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 71db2951-be4e-4ed8-b5a2-3086bcdd1cb9
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBvkBy5A5C2MdbNSx
+} 
+2019/42/28 19:42:20,796 INFO  DocumentManagementLogger.FileLogger [13] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:20,868 INFO  DocumentManagementLogger.FileLogger [14] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 805702e9-ecc3-473a-a2ff-b08fd8a9bdc1
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarynxVv72w9wdlEFHOH
+} 
+2019/42/28 19:42:21,033 INFO  DocumentManagementLogger.FileLogger [14] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:21,107 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 835f280e-f8d9-4190-b0b8-33af94247f1b
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryjV1hYm90hqsuqUWH
+} 
+2019/42/28 19:42:21,274 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:21,358 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: acafc92b-95ab-4096-ad78-01276bac6b69
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryztB2X5oq5L0LOlPA
+} 
+2019/42/28 19:42:21,521 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:21,601 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 047f4c12-21a5-4dfe-a2ef-ca503e45280f
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary74xFtJ0kieOBNGv6
+} 
+2019/42/28 19:42:21,757 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:21,851 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 28a85846-5119-4b71-b3c2-03c1af6adf27
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarycAZSZClwTjnxZZPq
+} 
+2019/42/28 19:42:22,002 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:22,084 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 2ec9c02f-7818-449b-b9de-5e61c2d6aa6d
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1DVPSh1Tdd2Oho2G
+} 
+2019/42/28 19:42:22,232 INFO  DocumentManagementLogger.FileLogger [17] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:22,307 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: d94c3915-82ae-4143-872a-872863f13ecd
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarygW3F88havDck3F9W
+} 
+2019/42/28 19:42:22,479 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:22,580 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 990a3835-f08d-49bd-81a6-449caafaa2a5
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryhQfb6RMh8wLO0DNw
+} 
+2019/42/28 19:42:22,756 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:22,839 INFO  DocumentManagementLogger.FileLogger [26] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 59f3128a-1a02-4dc0-94fd-65e11a78b20b
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryVeGSveizAamvnShc
+} 
+2019/42/28 19:42:23,010 INFO  DocumentManagementLogger.FileLogger [27] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/28 19:42:23,100 INFO  DocumentManagementLogger.FileLogger [17] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 3259fe39-f9d4-44d6-a8b1-8be3807505ff
+  Content-Length: 1398637
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarywOaJV9nLzmKC2S8c
+} 
+2019/42/28 19:42:23,272 INFO  DocumentManagementLogger.FileLogger [26] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/44/28 19:44:03,950 INFO  DocumentManagementLogger.FileLogger [24] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: becd8c3d-1685-4ef9-911d-eb2261a87c48
+  Content-Length: 2070
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryqLFFliJwE9UYTB68
+} 
+2019/44/28 19:44:27,938 INFO  DocumentManagementLogger.FileLogger [24] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/45/28 19:45:30,101 INFO  DocumentManagementLogger.FileLogger [18] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: e751a32d-6795-4b81-8342-c614a3f14151
+  Content-Length: 2145
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary5YBFWOE14ZfyH2rq
+} 
+2019/45/28 19:45:48,435 INFO  DocumentManagementLogger.FileLogger [18] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/59/28 19:59:35,770 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/Home/Index
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 1fd81053-e3a5-4263-971c-b876e4d5cfdf
+  Content-Length: 14956
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarySWqqgVCLZ1PJjKJT
+} 
+2019/59/28 19:59:38,652 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/00/28 20:00:06,053 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/Home/Index
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: cbf610cf-d3b8-4011-be63-0c000d110c83
+  Content-Length: 318529
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2AdE4IYbOeYQedkN
+} 
+2019/01/28 20:01:00,021 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/01/28 20:01:17,547 INFO  DocumentManagementLogger.FileLogger [6] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/Home/Index
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 01bd9e06-2f57-4c69-ab62-83156d24690e
+  Content-Length: 1398629
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarykUaZo9qkf1eAtBng
+} 
+2019/02/28 20:02:28,342 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: c40c0d4d-985e-433f-8d43-3556e456bd27
+  Content-Length: 14956
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarymZYy98MnLSTfUmLX
+} 
+2019/02/28 20:02:47,909 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/03/28 20:03:06,507 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 3a0dcb2e-fccc-4283-9812-90622b338b63
+  Content-Length: 20177
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryUgDb7xg1iZujfOAi
+} 
+2019/03/28 20:03:16,566 INFO  DocumentManagementLogger.FileLogger [8] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/06/28 20:06:03,168 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 13d09b29-e48e-4cff-8eed-101e8889a128
+  Content-Length: 20177
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryLRt9LsA4iqysVJ5N
+} 
+2019/06/28 20:06:08,961 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/08/28 20:08:56,390 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 62b47b74-201f-4f5a-a036-61e4f54babb6
+  Content-Length: 1398629
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBqdHM461PWATxo4D
+} 
+2019/18/28 20:18:36,656 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 0cc2c41b-0158-4119-a7e3-dccc6931348c
+  Content-Length: 1398619
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundarytQWHtwV3djd5qrUY
+} 
+2019/20/28 20:20:00,621 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/20/28 20:20:00,775 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: ef14918e-4fdf-43c3-900f-7b9b2bdcac14
+  Content-Length: 896660
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary2WuiX4f9umtcrcqr
+} 
+2019/21/28 20:21:33,234 INFO  DocumentManagementLogger.FileLogger [8] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/17/28 22:17:30,702 INFO  DocumentManagementLogger.FileLogger [38] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 6f10cafe-2b3f-4d1c-b4d2-b1e1c3f02cc9
+  Content-Length: 1398619
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary3unV9EthmlCFhbIl
+} 
+2019/23/28 22:23:45,641 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 370f6a8c-f05e-4cf0-bc58-b31f46056424
+  Content-Length: 1398619
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryRYf24FJJWlMVNIQF
+} 
+2019/23/28 22:23:51,229 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+} 
+2019/23/28 22:23:51,310 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: c28dee8a-a092-47bd-a70a-a76dfdab9629
+  Content-Length: 896660
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryQ3mRofvBZFjzDF7S
+} 
+2019/23/28 22:23:52,960 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+} 
+2019/24/28 22:24:53,668 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 41efbdca-1971-4184-bb41-75e8dfa6fe70
+  Content-Length: 1398619
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAWbyAHw61LIORlF4
+} 
+2019/24/28 22:24:55,885 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+} 
+2019/24/28 22:24:55,992 INFO  DocumentManagementLogger.FileLogger [11] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadFiles', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:64339/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/72.0.3626.121
+  User-Agent: Safari/537.36
+  Origin: http://localhost:64339
+  X-Requested-With: XMLHttpRequest
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 74409c64-06f5-46d3-ab33-2790be28a31f
+  Content-Length: 896660
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryAUiAYgeXVXBdBeoP
+} 
+2019/24/28 22:24:57,047 INFO  DocumentManagementLogger.FileLogger [11] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+} 

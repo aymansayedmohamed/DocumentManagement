@@ -1,0 +1,5 @@
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DomainModels\bin\Debug\DomainModels.dll
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DomainModels\bin\Debug\DomainModels.pdb
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DomainModels\obj\Debug\DomainModels.csproj.CoreCompileInputs.cache
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DomainModels\obj\Debug\DomainModels.dll
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DomainModels\obj\Debug\DomainModels.pdb
