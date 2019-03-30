@@ -1,14 +1,13 @@
 ﻿using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DocumentManagementAPIs;
-using DocumentManagementAPIs.Controllers;
 
 namespace DocumentManagementAPIs.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest
     {
-        [TestMethod]
+        /*[TestMethod]
         public void Index()
         {
             // Arrange
@@ -20,6 +19,6 @@ namespace DocumentManagementAPIs.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
             Assert.AreEqual("Home Page", result.ViewBag.Title);
-        }
+        }*/
     }
 }

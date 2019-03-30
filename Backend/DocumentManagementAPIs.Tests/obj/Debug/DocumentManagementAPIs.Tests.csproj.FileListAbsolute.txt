@@ -1,7 +1,6 @@
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\obj\Debug\DocumentManagementAPIs.Tests.csprojAssemblyReference.cache
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\obj\Debug\DocumentManagementAPIs.Tests.csproj.CoreCompileInputs.cache
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\ApplicationInsights.config
-D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\DocumentManagementAPIs.Tests.dll.config
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\DocumentManagementAPIs.Tests.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\DocumentManagementAPIs.Tests.pdb
@@ -21,7 +20,6 @@ D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Docum
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\WebActivatorEx.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.Owin.dll
-D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\System.Web.Optimization.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.Owin.Security.dll
@@ -60,7 +58,6 @@ D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Docum
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.Owin.xml
-D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\System.Web.Optimization.xml
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.Owin.Security.xml
@@ -84,8 +81,6 @@ D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Docum
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\DataAccess.dll.config
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Business.pdb
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\DomainModels.pdb
-D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\obj\Debug\DocumentManagementAPIs.Tests.csprojAssemblyReference.cache
-D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\obj\Debug\DocumentManagementAPIs.Tests.csproj.CoreCompileInputs.cache
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\obj\Debug\DocumentManagementAPIs.Tests.csproj.CopyComplete
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\obj\Debug\DocumentManagementAPIs.Tests.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\obj\Debug\DocumentManagementAPIs.Tests.pdb

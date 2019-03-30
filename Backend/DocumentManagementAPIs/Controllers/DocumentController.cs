@@ -23,10 +23,12 @@ namespace DocumentManagementAPIs.Controllers
     {
 
         private readonly IDocumentManager documentManager;
+        private readonly IAccountManager accountManager;
         private readonly ILogger logger;
-        public DocumentController(IDocumentManager documentManager, ILogger logger)
+        public DocumentController(IDocumentManager documentManager, IAccountManager accountManager, ILogger logger)
         {
             this.documentManager = documentManager;
+            this.accountManager = accountManager;
             this.logger = logger;
         }
 
@@ -36,34 +38,44 @@ namespace DocumentManagementAPIs.Controllers
         [Authorize]
         public HttpResponseMessage GetFile(string Id)
         {
-            //Create HTTP Response.
-            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK);
 
-            //Set the File Path.
-            string filePath = @"D:\UploadedFiles\e30cf1bb-1781-4252-ac1d-2115a79a3fa3\RSP1437267_2_RSP.pdf";
+            var userId = accountManager.GetUserId(this.User.Identity.Name);
+            var uploadUserId = documentManager.GetDocument(Id).UploadUserId;
 
-            //Check whether File exists.
-            if (!File.Exists(filePath))
+            if (userId == uploadUserId)
             {
-                //Throw 404 (Not Found) exception if File not found.
-                response.StatusCode = HttpStatusCode.NotFound;
-                response.ReasonPhrase = string.Format("File not found: {0} .", Id);
-                throw new HttpResponseException(response);
+                //Create HTTP Response.
+                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK);
+
+                //Set the File Path.
+                string filePath = @"D:\UploadedFiles\e30cf1bb-1781-4252-ac1d-2115a79a3fa3\RSP1437267_2_RSP.pdf";
+
+                //Check whether File exists.
+                if (!File.Exists(filePath))
+                {
+                    //Throw 404 (Not Found) exception if File not found.
+                    response.StatusCode = HttpStatusCode.NotFound;
+                    response.ReasonPhrase = string.Format("File not found: {0} .", Id);
+                    throw new HttpResponseException(response);
+                }
+
+                //Read the File into a Byte Array.
+                byte[] bytes = File.ReadAllBytes(filePath);
+
+                //Set the Response Content.
+                response.Content = new ByteArrayContent(bytes);
+
+                //Set the Response Content Length.
+                response.Content.Headers.ContentLength = bytes.LongLength;
+
+                //Set the File Content Type.
+                response.Content.Headers.ContentType = new MediaTypeHeaderValue(MimeMapping.GetMimeMapping("RSP1437267_2_RSP.pdf"));
+                return response;
             }
-
-            //Read the File into a Byte Array.
-            byte[] bytes = File.ReadAllBytes(filePath);
-
-            //Set the Response Content.
-            response.Content = new ByteArrayContent(bytes);
-
-            //Set the Response Content Length.
-            response.Content.Headers.ContentLength = bytes.LongLength;
-
-            //Set the File Content Type.
-            response.Content.Headers.ContentType = new MediaTypeHeaderValue(MimeMapping.GetMimeMapping("RSP1437267_2_RSP.pdf"));
-            return response;
-
+            else
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest,"Unatherized to download this file");
+            }
          
         }
 
@@ -75,7 +87,9 @@ namespace DocumentManagementAPIs.Controllers
         {
             try
             {
-                var documents = documentManager.GetAllDocuments().ToList();
+                var userId = accountManager.GetUserId(this.User.Identity.Name);
+
+                var documents = documentManager.GetAllDocuments(userId).ToList();
 
                 return Request.CreateResponse(HttpStatusCode.OK, documents);
             }
@@ -117,10 +131,11 @@ namespace DocumentManagementAPIs.Controllers
                     // Get the uploaded image from the Files collection
                     var httpPostedFile = HttpContext.Current.Request.Files["UploadedImage"];
 
+                    var userId = accountManager.GetUserId(this.User.Identity.Name);
+
                     var document = new Document()
                     {
-                        UploadUserId = "e30cf1bb-1781-4252-ac1d-2115a79a3fa3" //this.User.Identity.Name
-                       ,
+                        UploadUserId = userId ,
                         DocumentSize = 5 //todo
                     };
 

@@ -16,7 +16,7 @@ class FilesApi {
                     );
   }
 
-  static getAllFiles() {
+  static getAllDocuments() {
    // return axios.get(`http://localhost:64339/api/Documents/GetAllDocuments`  );
     return axios(`http://localhost:64339/api/Documents/GetAllDocuments`,  {
       method: 'GET',
@@ -29,7 +29,7 @@ class FilesApi {
   });
    }
 
-  static approveFile(fileId) {
+  static downloadDocument(fileId) {
      //return axios.get(`http://localhost:64339/api/Documents/DownloadFiles/`+fileId  );
 
     return axios(`http://localhost:64339/api/Documents/DownloadFiles/`+fileId , {
@@ -45,10 +45,7 @@ class FilesApi {
 
   }
 
-  static rejectFile(file) {
-    
-     return axios.put(`http://localhost:59346/api/Download/RejectFile`,file  );
-  }
+  
   
 
  

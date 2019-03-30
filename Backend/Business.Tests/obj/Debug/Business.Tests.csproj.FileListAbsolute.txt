@@ -1,6 +1,3 @@
-D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Business.Tests\bin\Debug\Business.Tests.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Business.Tests\bin\Debug\Business.Tests.pdb
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Business.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
@@ -11,4 +8,3 @@ D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Busin
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Business.Tests\obj\Debug\Business.Tests.csproj.CopyComplete
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Business.Tests\obj\Debug\Business.Tests.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Business.Tests\obj\Debug\Business.Tests.pdb
-D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Business.Tests\obj\Debug\Business.Tests.csprojAssemblyReference.cache

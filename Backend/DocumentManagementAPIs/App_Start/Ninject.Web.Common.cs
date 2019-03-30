@@ -75,6 +75,7 @@ namespace DocumentManagementAPIs.App_Start
             kernel.Bind<ILogger>().To<FileLogger>().InSingletonScope();
 
             kernel.Bind<IDocumentManager>().To<DocumentManager>().InTransientScope();
+            kernel.Bind<IAccountManager>().To<AccountManager>().InTransientScope();
 
         }
     }

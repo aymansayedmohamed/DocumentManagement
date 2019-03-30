@@ -4,18 +4,9 @@ export default function fileReducer(state = [],action){
     debugger;
     switch (action.type){
       
-        case types.LOAD_FILES_SUCCESS:
+        case types.LOAD_DOCUMENTS_SUCCESS:
             return action.files;
 
-        case types.APPROVE_FILE_SUCCESS:
-            return [
-                ...state.filter(file => file.Id !== action.file.Id)
-            ];
-
-        case types.REJECT_FILE_SUCCESS:
-            return [
-                ...state.filter(file => file.Id !== action.file.Id)
-            ];
 
         case types.DOWNLOAD_BATCH_FILES_SUCCESS:
         return [

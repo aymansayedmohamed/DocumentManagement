@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAccountManager.cs" />
     <Compile Include="IDocumentManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

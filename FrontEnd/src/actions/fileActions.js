@@ -2,17 +2,9 @@ import * as types from '../constants/actionTypes';
 import fileApi from '../api/filesApi';
 import { saveAs } from 'file-saver';
 
-export function loadFilesSuccess(files){
+export function loadDocumentsSuccess(files){
     debugger;
-    return{type: types.LOAD_FILES_SUCCESS, files};
-}
-
-export function approveFileSuccess(file){
-    return {type: types.APPROVE_FILE_SUCCESS, file};
-}
-
-export function rejectFileSuccess(file){
-    return {type: types.REJECT_FILE_SUCCESS, file};
+    return{type: types.LOAD_DOCUMENTS_SUCCESS, files};
 }
 
 export function signInSUCCESS(token){
@@ -37,12 +29,12 @@ export function signIn(user){
     };
 }
 
-export function loadFiles(){
+export function loadDocuments(){
     return function(dispatch){
         
-        return fileApi.getAllFiles().then(Response =>{
+        return fileApi.getAllDocuments().then(Response =>{
             debugger;
-            dispatch(loadFilesSuccess(Response.data));
+            dispatch(loadDocumentsSuccess(Response.data));
         }).catch(error => {
             debugger;
             throw(error);
@@ -50,8 +42,8 @@ export function loadFiles(){
     };
 }
 
-export function downloadFile(file){
-    fileApi.approveFile(file.DocumentID).then(response => {
+export function downloadDocument(file){
+    fileApi.downloadDocument(file.DocumentID).then(response => {
         saveAs(response.data, file.DocumentName);
         })
         .catch(error => {
@@ -59,30 +51,4 @@ export function downloadFile(file){
         });
 }
 
-export function approveFile(fileId){
 
-    return function(dispatch,getState){
-
-        return fileApi.approveFile(fileId).then(Response =>{
-            debugger;
-           // dispatch(approveFileSuccess(Response.data));
-        }).catch(error => {
-            debugger;
-            throw(error);
-        });
-
-    };
-}
-
-export function rejectFile(file){
-
-    return function(dispatch,getState){
-
-        return fileApi.rejectFile(file).then(Response => {
-            dispatch(rejectFileSuccess(Response.data));
-        }).catch(error => {
-            throw(error);
-
-        });
-    };
-}

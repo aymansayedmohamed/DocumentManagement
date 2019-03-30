@@ -22,12 +22,12 @@ namespace Business
             this.repoDocuments = repoDocuments;
         }
 
-        public IQueryable<Document> GetAllDocuments()
+        public IQueryable<Document> GetAllDocuments(string userId)
         {
             return
                  (
                  from doc in repoDocuments.GetAll()
-                 .Where(O => O.IsDeleted == false)
+                 .Where(O => O.UploadUserId == userId && O.IsDeleted == false)
                  .OrderByDescending(O => O.LastAccessedDate)
                  select new ViewModels.Document()
                  {
@@ -39,6 +39,24 @@ namespace Business
                      DocumentName = doc.DocumentName
                      
                  }).AsQueryable();
+        }
+
+        public Document GetDocument(string docId)
+        {
+            return
+                 (
+                 from doc in repoDocuments.GetAll()
+                 .Where(O => O.DocumentID == new Guid(docId) && O.IsDeleted == false)
+                 select new ViewModels.Document()
+                 {
+                     DocumentID = doc.DocumentID,
+                     DocumentSize = doc.DocumentSize,
+                     LastAccessedDate = doc.LastAccessedDate,
+                     UploadDate = doc.UploadDate,
+                     UploadUserId = doc.UploadUserId,
+                     DocumentName = doc.DocumentName
+
+                 }).FirstOrDefault();
         }
 
         public void UploadFiles(Document doc, HttpPostedFile httpPostedFile)
