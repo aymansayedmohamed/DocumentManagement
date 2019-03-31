@@ -22,6 +22,8 @@ namespace Business
             this.repoDocuments = repoDocuments;
         }
 
+
+
         public IQueryable<Document> GetAllDocuments(string userId)
         {
             return
@@ -37,35 +39,47 @@ namespace Business
                      UploadDate = doc.UploadDate,
                      UploadUserId = doc.UploadUserId,
                      DocumentName = doc.DocumentName
-                     
+
                  }).AsQueryable();
+        }
+
+        public void UpdateLastAccessDate(Guid docId)
+        {
+            var now = DateTime.Now;
+
+            var DomainDoc = repoDocuments.Find(docId);
+            DomainDoc.LastAccessedDate = now;
+
+            repoDocuments.SaveChanges();
+
         }
 
         public Document GetDocument(string docId)
         {
-            return
-                 (
-                 from doc in repoDocuments.GetAll()
-                 .Where(O => O.DocumentID == new Guid(docId) && O.IsDeleted == false)
-                 select new ViewModels.Document()
-                 {
-                     DocumentID = doc.DocumentID,
-                     DocumentSize = doc.DocumentSize,
-                     LastAccessedDate = doc.LastAccessedDate,
-                     UploadDate = doc.UploadDate,
-                     UploadUserId = doc.UploadUserId,
-                     DocumentName = doc.DocumentName
+            var document = (
+                             from doc in repoDocuments.GetAll()
+                             .Where(O => O.DocumentID == new Guid(docId) && O.IsDeleted == false)
+                             select new ViewModels.Document()
+                             {
+                                 DocumentID = doc.DocumentID,
+                                 DocumentSize = doc.DocumentSize,
+                                 LastAccessedDate = doc.LastAccessedDate,
+                                 UploadDate = doc.UploadDate,
+                                 UploadUserId = doc.UploadUserId,
+                                 DocumentName = doc.DocumentName,
+                             }).FirstOrDefault();
 
-                 }).FirstOrDefault();
+            document.FilePath = GetDocumentSavePath(document.UploadUserId, document.DocumentName);
+
+            return document;
+
         }
 
         public void UploadFiles(Document doc, HttpPostedFile httpPostedFile)
         {
             if (httpPostedFile != null)
             {
-                string documentSaveDirectoryPath = GetDocumentSaveDirectoryPath(doc.UploadUserId);
-
-                string documentSavePath = Path.Combine(documentSaveDirectoryPath, httpPostedFile?.FileName);
+                string documentSavePath = GetDocumentSavePath(doc.UploadUserId, httpPostedFile?.FileName);
 
                 // Save the uploaded file to "UploadedFiles" folder
                 httpPostedFile.SaveAs(documentSavePath);
@@ -92,7 +106,19 @@ namespace Business
             }
         }
 
-        private string GetDocumentSaveDirectoryPath(string userId)
+        public byte[] ReadFileContent(string filePath)
+        {
+            if (!File.Exists(filePath))
+            {
+                throw new FileNotFoundException($"Document not found at {filePath}");
+            }
+
+            //Read the File into a Byte Array.
+            byte[] bytes = File.ReadAllBytes(filePath);
+            return bytes;
+        }
+
+        private string GetDocumentSavePath(string userId, string fileName)
         {
             // Get the complete file path
             string localDirectoryPath = ConfigurationManager.AppSettings["LocalDirectory"];
@@ -111,7 +137,10 @@ namespace Business
                 logger.AddInformationLog($"{documentSaveDirectory} :  is created.");
             }
 
-            return documentSaveDirectoryPath;
+            return Path.Combine(documentSaveDirectoryPath, fileName);
+
         }
+
+
     }
 }

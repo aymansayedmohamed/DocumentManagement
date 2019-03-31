@@ -9,3 +9,4 @@ D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\IData
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\IDataAccess\obj\Debug\IDataAccess.csproj.CopyComplete
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\IDataAccess\obj\Debug\IDataAccess.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\IDataAccess\obj\Debug\IDataAccess.pdb
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\IDataAccess\obj\Debug\IDataAccess.csprojAssemblyReference.cache

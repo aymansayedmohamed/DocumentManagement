@@ -15,5 +15,6 @@ namespace ViewModels
         public Nullable<System.DateTime> LastAccessedDate { get; set; }
         public string UploadUserId { get; set; }
         public Nullable<int> DocumentSize { get; set; }
+        public string FilePath { get; set; }
     }
 }

@@ -2,17 +2,14 @@
 using IBusiness;
 using System;
 using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
 using System.Web.Http.Cors;
-using System.Web.Http.Results;
 using ViewModels;
 
 namespace DocumentManagementAPIs.Controllers
@@ -34,49 +31,50 @@ namespace DocumentManagementAPIs.Controllers
 
 
         [HttpGet]
-        [Route("DownloadFiles/{Id}")]
+        [Route("DownloadDocument/{Id}")]
         [Authorize]
-        public HttpResponseMessage GetFile(string Id)
+        public HttpResponseMessage DownloadDocument(string Id)
         {
-
-            var userId = accountManager.GetUserId(this.User.Identity.Name);
-            var uploadUserId = documentManager.GetDocument(Id).UploadUserId;
-
-            if (userId == uploadUserId)
+            try
             {
-                //Create HTTP Response.
-                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK);
+                string userId = accountManager.GetUserId(User.Identity.Name);
+                Document document = documentManager.GetDocument(Id);
 
-                //Set the File Path.
-                string filePath = @"D:\UploadedFiles\e30cf1bb-1781-4252-ac1d-2115a79a3fa3\RSP1437267_2_RSP.pdf";
-
-                //Check whether File exists.
-                if (!File.Exists(filePath))
+                if (userId == document.UploadUserId)
                 {
-                    //Throw 404 (Not Found) exception if File not found.
-                    response.StatusCode = HttpStatusCode.NotFound;
-                    response.ReasonPhrase = string.Format("File not found: {0} .", Id);
-                    throw new HttpResponseException(response);
+
+                    byte[] bytes = documentManager.ReadFileContent(document.FilePath);
+
+                    HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK);
+
+                    response.Content = new ByteArrayContent(bytes);
+
+                    response.Content.Headers.ContentLength = bytes.LongLength;
+
+                    response.Content.Headers.ContentType = new MediaTypeHeaderValue(MimeMapping.GetMimeMapping(document.DocumentName));
+
+                    documentManager.UpdateLastAccessDate(document.DocumentID);
+
+                    return response;
                 }
-
-                //Read the File into a Byte Array.
-                byte[] bytes = File.ReadAllBytes(filePath);
-
-                //Set the Response Content.
-                response.Content = new ByteArrayContent(bytes);
-
-                //Set the Response Content Length.
-                response.Content.Headers.ContentLength = bytes.LongLength;
-
-                //Set the File Content Type.
-                response.Content.Headers.ContentType = new MediaTypeHeaderValue(MimeMapping.GetMimeMapping("RSP1437267_2_RSP.pdf"));
-                return response;
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, "Unatherized to download this file");
+                }
             }
-            else
+            catch(FileNotFoundException fileNotFoundEx)
             {
-                return Request.CreateResponse(HttpStatusCode.BadRequest,"Unatherized to download this file");
+                logger.AddErrorLog(fileNotFoundEx.Message, fileNotFoundEx);
+
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, fileNotFoundEx);
             }
-         
+            catch (Exception ex)
+            {
+                logger.AddErrorLog(ex);
+
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
+            }
+
         }
 
 
@@ -87,20 +85,57 @@ namespace DocumentManagementAPIs.Controllers
         {
             try
             {
-                var userId = accountManager.GetUserId(this.User.Identity.Name);
+                string userId = accountManager.GetUserId(User.Identity.Name);
 
-                var documents = documentManager.GetAllDocuments(userId).ToList();
+                List<Document> documents = documentManager.GetAllDocuments(userId).ToList();
 
                 return Request.CreateResponse(HttpStatusCode.OK, documents);
             }
             catch (Exception ex)
             {
-                //handle exception
                 logger.AddErrorLog(ex);
 
                 return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
             }
         }
+
+
+        [Route("UploadDocument")]
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
+        public HttpResponseMessage UploadDocument()
+        {
+            try
+            {
+                if (HttpContext.Current.Request.Files.AllKeys.Any())
+                {
+                    // Get the uploaded image from the Files collection
+                    HttpPostedFile httpPostedFile = HttpContext.Current.Request.Files["UploadedImage"];
+
+                    string userId = accountManager.GetUserId(User.Identity.Name);
+
+                    Document document = new Document()
+                    {
+                        UploadUserId = userId,
+                        DocumentSize = 5 //todo
+                    };
+
+                    documentManager.UploadFiles(document, httpPostedFile);
+                }
+
+                return Request.CreateResponse(HttpStatusCode.OK);
+            }
+
+            catch (Exception ex)
+            {
+                //log exception details
+                logger.AddErrorLog(ex);
+
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
+            }
+        }
+
+
         //[Route("UploadFiles")]
         //[HttpPost]
         //public async Task<HttpResponseMessage> ReadStream()
@@ -117,42 +152,6 @@ namespace DocumentManagementAPIs.Controllers
         //    return Request.CreateResponse(HttpStatusCode.OK);
         //}
 
-
-
-        [Route("UploadFiles")]
-        [HttpPost]
-        [Authorize(Roles = "Admin")]
-        public HttpResponseMessage UploadFiles()
-        {
-            try
-            {
-                if (HttpContext.Current.Request.Files.AllKeys.Any())
-                {
-                    // Get the uploaded image from the Files collection
-                    var httpPostedFile = HttpContext.Current.Request.Files["UploadedImage"];
-
-                    var userId = accountManager.GetUserId(this.User.Identity.Name);
-
-                    var document = new Document()
-                    {
-                        UploadUserId = userId ,
-                        DocumentSize = 5 //todo
-                    };
-
-                    this.documentManager.UploadFiles(document, httpPostedFile);
-                }
-
-                return Request.CreateResponse(HttpStatusCode.OK);
-            }
-
-            catch(Exception ex)
-            {
-                //log exception details
-                logger.AddErrorLog(ex);
-
-                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
-            }
-        }
 
 
         /*

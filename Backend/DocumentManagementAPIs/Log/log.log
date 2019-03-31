@@ -2037,3 +2037,1349 @@
   Content-Length: 318321
   Content-Type: application/pdf
 } 
+2019/41/31 09:41:14,945 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 20075826-ab3c-4f1e-b302-45e853145c2b
+} 
+2019/41/31 09:41:14,962 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 25323391-54fb-4dc9-a063-9fdf6374a64e
+} 
+2019/41/31 09:41:15,146 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/41/31 09:41:15,146 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/41/31 09:41:15,225 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 49ecdcfe-df97-4aea-a5ae-b48a1e6c1c92
+} 
+2019/41/31 09:41:26,487 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/41/31 09:41:26,699 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 9f19bd5c-faf9-480b-bbf9-652cac158a4f
+} 
+2019/41/31 09:41:32,303 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/41/31 09:41:46,061 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/UploadDocument', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: POST
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a5f9ab0c-fb87-4ff2-be07-2ab3d6d6bf9a
+} 
+2019/41/31 09:41:46,062 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/41/31 09:41:46,097 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadDocument', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: d3a0fae5-2e09-4a2a-8931-c1cf7b776523
+  Content-Length: 9257
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryO6LwluP8AZhfFFPJ
+} 
+2019/42/31 09:42:06,484 INFO  DocumentManagementLogger.FileLogger [9] LocalDirectory config value: D:\UploadedFiles 
+2019/42/31 09:42:06,566 INFO  DocumentManagementLogger.FileLogger [9] document :DomainModels.Document saved to the database 
+2019/42/31 09:42:06,566 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+} 
+2019/42/31 09:42:09,637 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 189003cf-2e41-4ad9-9e7a-236e9a5d2ffb
+} 
+2019/42/31 09:42:09,637 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/42/31 09:42:09,866 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: cd252d39-c6c3-4288-acc2-b2ea8a9fb294
+} 
+2019/42/31 09:42:12,516 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/31 09:42:26,859 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/ae3340a9-7c21-493d-adfd-1a7cd13f293f', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 66e3f588-c340-43cd-adfe-8c97fee6e8fb
+} 
+2019/42/31 09:42:26,859 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/42/31 09:42:26,880 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/ae3340a9-7c21-493d-adfd-1a7cd13f293f', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: cb9f88fd-4ebc-40cc-b590-fc87e57b525f
+} 
+2019/47/31 09:47:16,455 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 490341bf-c40c-4b76-8264-9ba876b46897
+} 
+2019/47/31 09:47:16,533 INFO  DocumentManagementLogger.FileLogger [8] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/47/31 09:47:16,599 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a5a13cc1-c174-4ab0-bb70-097c655d031e
+} 
+2019/47/31 09:47:19,381 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/47/31 09:47:24,641 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/972017d8-2a83-4221-82b6-516b4a4ecfe6', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 1b1844bf-2265-4aca-8d35-742525c4f4ce
+} 
+2019/47/31 09:47:24,642 INFO  DocumentManagementLogger.FileLogger [8] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/47/31 09:47:24,662 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/972017d8-2a83-4221-82b6-516b4a4ecfe6', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: b97c6a36-ab2d-416e-b34a-536cc49d5891
+} 
+2019/47/31 09:47:35,513 INFO  DocumentManagementLogger.FileLogger [12] LocalDirectory config value: D:\UploadedFiles 
+2019/55/31 09:55:33,977 INFO  DocumentManagementLogger.FileLogger [5] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/ae3340a9-7c21-493d-adfd-1a7cd13f293f', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: e9e86e7d-c2b2-427d-8b2a-d3d67683ac19
+} 
+2019/55/31 09:55:34,037 INFO  DocumentManagementLogger.FileLogger [5] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/55/31 09:55:34,072 INFO  DocumentManagementLogger.FileLogger [6] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/ae3340a9-7c21-493d-adfd-1a7cd13f293f', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 9eab4d42-a402-4a2f-a462-62b4f8b2ee7a
+} 
+2019/55/31 09:55:39,380 INFO  DocumentManagementLogger.FileLogger [6] LocalDirectory config value: D:\UploadedFiles 
+2019/55/31 09:55:58,707 INFO  DocumentManagementLogger.FileLogger [6] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ByteArrayContent, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Length: 114251
+  Content-Type: application/pdf
+} 
+2019/56/31 09:56:04,211 INFO  DocumentManagementLogger.FileLogger [6] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/972017d8-2a83-4221-82b6-516b4a4ecfe6', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 5a9c2232-64e5-4522-ba66-3e1ec1dd216e
+} 
+2019/56/31 09:56:04,211 INFO  DocumentManagementLogger.FileLogger [6] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/56/31 09:56:04,229 INFO  DocumentManagementLogger.FileLogger [8] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/972017d8-2a83-4221-82b6-516b4a4ecfe6', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 1d847d94-3b73-44d6-975b-7efbf0efbeae
+} 
+2019/56/31 09:56:07,461 INFO  DocumentManagementLogger.FileLogger [8] LocalDirectory config value: D:\UploadedFiles 
+2019/56/31 09:56:19,773 INFO  DocumentManagementLogger.FileLogger [8] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ByteArrayContent, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Length: 8815
+  Content-Type: application/x-zip-compressed
+} 
+2019/12/31 10:12:32,322 INFO  DocumentManagementLogger.FileLogger [12] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/ae3340a9-7c21-493d-adfd-1a7cd13f293f', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 9819a61f-78a7-4514-a8d5-8a64232ccaa9
+} 
+2019/12/31 10:12:32,386 INFO  DocumentManagementLogger.FileLogger [12] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/12/31 10:12:32,432 INFO  DocumentManagementLogger.FileLogger [10] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/ae3340a9-7c21-493d-adfd-1a7cd13f293f', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 899d4c47-7281-4675-b938-736b60d517b9
+} 
+2019/13/31 10:13:10,014 INFO  DocumentManagementLogger.FileLogger [10] LocalDirectory config value: D:\UploadedFiles 
+2019/13/31 10:13:33,356 INFO  DocumentManagementLogger.FileLogger [10] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ByteArrayContent, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Length: 114251
+  Content-Type: application/pdf
+} 
+2019/13/31 10:13:53,733 INFO  DocumentManagementLogger.FileLogger [11] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: d6d8fb53-e529-41a7-8fec-e17090ac2c49
+} 
+2019/13/31 10:13:53,733 INFO  DocumentManagementLogger.FileLogger [11] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/13/31 10:13:53,851 INFO  DocumentManagementLogger.FileLogger [9] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 1bf85756-e144-4b51-906d-1475571f4104
+} 
+2019/13/31 10:13:55,675 INFO  DocumentManagementLogger.FileLogger [9] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/17/31 10:17:09,328 INFO  DocumentManagementLogger.FileLogger [11] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 44acfdaa-d391-4511-8c41-42490fcdcfec
+} 
+2019/17/31 10:17:09,328 INFO  DocumentManagementLogger.FileLogger [11] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/17/31 10:17:09,368 INFO  DocumentManagementLogger.FileLogger [22] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 673cc3e2-5801-4afb-9ae0-00c87fa3b358
+} 
+2019/17/31 10:17:11,013 INFO  DocumentManagementLogger.FileLogger [22] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/17/31 10:17:47,215 INFO  DocumentManagementLogger.FileLogger [11] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: e1ad5c68-d5be-47d8-ad70-0bf71c3e089e
+} 
+2019/17/31 10:17:47,216 INFO  DocumentManagementLogger.FileLogger [11] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/17/31 10:17:47,321 INFO  DocumentManagementLogger.FileLogger [22] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 429981fe-ca79-4faa-b1fe-f7184e61da24
+} 
+2019/17/31 10:17:49,441 INFO  DocumentManagementLogger.FileLogger [22] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/18/31 10:18:10,089 INFO  DocumentManagementLogger.FileLogger [11] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 25df6367-7beb-43a5-8ca9-a1f77cefcc3d
+} 
+2019/18/31 10:18:10,090 INFO  DocumentManagementLogger.FileLogger [11] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/18/31 10:18:10,246 INFO  DocumentManagementLogger.FileLogger [20] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 1ceca7cf-6779-44cd-b395-af067dad353e
+} 
+2019/18/31 10:18:13,246 INFO  DocumentManagementLogger.FileLogger [20] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/39/31 10:39:37,160 INFO  DocumentManagementLogger.FileLogger [68] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 0da1650b-b22a-4f82-8902-d0257242bd20
+} 
+2019/39/31 10:39:37,160 INFO  DocumentManagementLogger.FileLogger [68] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/39/31 10:39:37,482 INFO  DocumentManagementLogger.FileLogger [68] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 2ba178fa-c092-4f13-be14-01319bd837e4
+} 
+2019/39/31 10:39:40,586 INFO  DocumentManagementLogger.FileLogger [68] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/39/31 10:39:48,100 INFO  DocumentManagementLogger.FileLogger [63] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 6f558a11-0b0d-4f19-a0ba-80c163a62521
+} 
+2019/39/31 10:39:48,101 INFO  DocumentManagementLogger.FileLogger [63] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/39/31 10:39:48,231 INFO  DocumentManagementLogger.FileLogger [69] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 193b9b49-9508-437c-92dc-8ca856d558d4
+} 
+2019/39/31 10:39:49,937 INFO  DocumentManagementLogger.FileLogger [69] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/41/31 10:41:52,311 INFO  DocumentManagementLogger.FileLogger [72] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 7c09bd13-a220-4a94-9ad4-dc411b517cbf
+} 
+2019/41/31 10:41:52,312 INFO  DocumentManagementLogger.FileLogger [72] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/41/31 10:41:52,422 INFO  DocumentManagementLogger.FileLogger [75] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 0b4ec3ae-e2bd-47da-9157-753f92091f8a
+} 
+2019/41/31 10:41:54,105 INFO  DocumentManagementLogger.FileLogger [75] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/31 10:42:05,115 INFO  DocumentManagementLogger.FileLogger [74] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/UploadDocument', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: POST
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 5d4f1966-62be-4dda-b53e-49b61a13d41b
+} 
+2019/42/31 10:42:05,121 INFO  DocumentManagementLogger.FileLogger [74] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/42/31 10:42:05,203 INFO  DocumentManagementLogger.FileLogger [74] Request: Method: POST, RequestUri: 'http://localhost:64339/api/Documents/UploadDocument', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 37436fea-b2d6-4ae6-b686-e6ef060d541d
+  Content-Length: 1065
+  Content-Type: multipart/form-data; boundary=----WebKitFormBoundary3GynmBCJiaNAKdE3
+} 
+2019/42/31 10:42:07,405 INFO  DocumentManagementLogger.FileLogger [74] LocalDirectory config value: D:\UploadedFiles 
+2019/42/31 10:42:07,435 INFO  DocumentManagementLogger.FileLogger [74] document :DomainModels.Document saved to the database 
+2019/42/31 10:42:07,435 INFO  DocumentManagementLogger.FileLogger [74] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+} 
+2019/42/31 10:42:11,305 INFO  DocumentManagementLogger.FileLogger [76] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: c474c8e4-2a19-463a-ae90-33e6b59b0157
+} 
+2019/42/31 10:42:11,305 INFO  DocumentManagementLogger.FileLogger [76] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/42/31 10:42:11,650 INFO  DocumentManagementLogger.FileLogger [73] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: e6ea721d-c402-4c2e-a395-fe02e4ff236d
+} 
+2019/42/31 10:42:15,672 INFO  DocumentManagementLogger.FileLogger [73] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/42/31 10:42:19,258 INFO  DocumentManagementLogger.FileLogger [74] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/8fd7707a-bd6a-46bb-a01d-092de7638566', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: c052ad1f-4365-4446-90bb-bc77795fd92c
+} 
+2019/42/31 10:42:19,259 INFO  DocumentManagementLogger.FileLogger [74] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/42/31 10:42:19,279 INFO  DocumentManagementLogger.FileLogger [76] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/DownloadDocument/8fd7707a-bd6a-46bb-a01d-092de7638566', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 518c59ad-9f02-4f46-9ffc-e31f3df42773
+} 
+2019/42/31 10:42:22,139 INFO  DocumentManagementLogger.FileLogger [76] LocalDirectory config value: D:\UploadedFiles 
+2019/42/31 10:42:23,221 INFO  DocumentManagementLogger.FileLogger [76] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ByteArrayContent, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Length: 636
+  Content-Type: application/octet-stream
+} 
+2019/44/31 10:44:57,883 INFO  DocumentManagementLogger.FileLogger [81] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 8c03ef50-f5d3-4b61-8200-2f414bdf80c0
+} 
+2019/44/31 10:44:57,884 INFO  DocumentManagementLogger.FileLogger [81] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/44/31 10:44:58,077 INFO  DocumentManagementLogger.FileLogger [79] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 21dbaa1d-115e-430f-8fc5-fb0601371010
+} 
+2019/48/31 10:48:10,053 INFO  DocumentManagementLogger.FileLogger [82] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: a843fa69-3bac-4b26-bf06-83941c277315
+} 
+2019/48/31 10:48:10,054 INFO  DocumentManagementLogger.FileLogger [82] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/48/31 10:48:10,085 INFO  DocumentManagementLogger.FileLogger [77] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 6865fd90-df25-4ff7-92fd-3efbf59fb353
+} 
+2019/48/31 10:48:10,086 INFO  DocumentManagementLogger.FileLogger [81] Request: Method: OPTIONS, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Access-Control-Request-Method: GET
+  Origin: http://localhost:3000
+  Access-Control-Request-Headers: authorization
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 717cf92e-f37a-4f53-99b3-dedb645ea388
+} 
+2019/48/31 10:48:10,086 INFO  DocumentManagementLogger.FileLogger [77] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/48/31 10:48:10,086 INFO  DocumentManagementLogger.FileLogger [81] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: <null>, Headers:
+{
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Headers: authorization
+} 
+2019/48/31 10:48:10,112 INFO  DocumentManagementLogger.FileLogger [79] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/48/31 10:48:10,166 INFO  DocumentManagementLogger.FileLogger [82] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Pragma: no-cache
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 4b402fb5-ef3b-4f1f-92aa-46ebac401325
+} 
+2019/48/31 10:48:11,425 INFO  DocumentManagementLogger.FileLogger [80] Request: Method: GET, RequestUri: 'http://localhost:64339/api/Documents/GetAllDocuments', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: keep-alive
+  Accept: application/json
+  Accept: text/plain
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Accept-Language: ar
+  Accept-Language: en-US; q=0.9
+  Accept-Language: en; q=0.8
+  Authorization: Bearer ej8Pvgl0o9eyUKHW9beBW9D15wQX3BTa1-_KeZ7SsgkSJ-ESFRU8FMVHKVxOJz0zBid9Rc00eFH871IiXHZ-tII2niXsGTNDPYJHmtMvNSQ7wAIg9TUIiOVsT8uiWnvzyJzw4nzoGuNJNV9-cOzTD2Olb1uW3Z88e2yGvA03d8fhGpiD8eGc8dMPl_kku_edHS2nYr84P06D0UwYtrCfn50XIk6E0MfyVb1LWLPMXkhPXPh387lRJjV6DzP8RTiopR7oGMMiJCvQ5yRnxP4Byehq4aPv_jZJkoNKHobO7YTMDlLrt51_vCSy6BMGcgaGlsiXDPFIYpCA_vBD2f8o_fqELqmmkwmFH0laWc9tVHC3nTSENJQcceziE1xwE6vbnhtHMQ6stNQKX2dOFaf8gsqAxdwxFzxv_HcKxJ3l1zE8FIzKkANF-N6Ry482DdUMH36eDpxskOC13nNXk4I_20h5KgGdNoKcCQ1vj_JKyQK2bYCsktfPw4-XiJmtPZfad--zqK8kruLU4knNmM0nDA
+  Host: localhost:64339
+  Referer: http://localhost:3000/documents
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 10.0; Win64; x64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/73.0.3683.86
+  User-Agent: Safari/537.36
+  Origin: http://localhost:3000
+  ApplicationInsights-RequestTrackingTelemetryModule-RootRequest-Id: 2e173363-176f-413a-80a5-3f2d0a14ac50
+} 
+2019/48/31 10:48:12,447 INFO  DocumentManagementLogger.FileLogger [82] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 
+2019/48/31 10:48:12,519 INFO  DocumentManagementLogger.FileLogger [80] Response: StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.ObjectContent`1[[System.Collections.Generic.List`1[[ViewModels.Document, ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], Headers:
+{
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+} 

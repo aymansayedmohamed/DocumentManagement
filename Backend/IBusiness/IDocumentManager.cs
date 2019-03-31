@@ -14,6 +14,8 @@ namespace IBusiness
         void UploadFiles(Document doc, HttpPostedFile httpPostedFile);
         IQueryable<Document> GetAllDocuments(string userId);
         Document GetDocument(string docId);
+        byte[] ReadFileContent(string filePath);
+        void UpdateLastAccessDate(Guid docId);
 
     }
 }

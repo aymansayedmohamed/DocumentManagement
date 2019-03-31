@@ -3,3 +3,4 @@ D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\ViewM
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\ViewModels\obj\Debug\ViewModels.csproj.CoreCompileInputs.cache
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\ViewModels\obj\Debug\ViewModels.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\ViewModels\obj\Debug\ViewModels.pdb
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\ViewModels\obj\Debug\ViewModels.csprojAssemblyReference.cache

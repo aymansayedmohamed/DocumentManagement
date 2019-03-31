@@ -1,5 +1,6 @@
 import * as types from '../constants/actionTypes';
 import fileApi from '../api/filesApi';
+import authApi from '../api/authApi';
 import { saveAs } from 'file-saver';
 
 export function loadDocumentsSuccess(files){
@@ -19,7 +20,7 @@ export function signIn(user){
     debugger
     return function(dispatch){
         
-        return fileApi.signIn(user).then(Response =>{
+        return authApi.signIn(user).then(Response =>{
             localStorage.setItem('token', Response.data.access_token);
             dispatch(signInSUCCESS(Response.data.access_token));
         }).catch(error => {
