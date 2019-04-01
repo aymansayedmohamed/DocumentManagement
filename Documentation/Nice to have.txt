@@ -1,0 +1,7 @@
+It will be nice if :
+   - better frontend design and layout and better pages redirection 
+   - upload files in chunks to extend the limit request size
+   - make pagaing for the documents list at the backend and at the frontend
+   - database migration
+   - integration test 
+   

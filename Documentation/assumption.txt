@@ -1,0 +1,9 @@
+I assume that : 
+   - The program will small document management system with two features (uploading/downloading documents).
+   - upload file size limited to maximum 4 Giga
+   - only admin can upload files
+   - any authenticated user can download or see the files
+   - every user see only his uploaded files
+
+
+
