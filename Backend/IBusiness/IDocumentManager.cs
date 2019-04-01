@@ -11,10 +11,9 @@ namespace IBusiness
 {
     public interface IDocumentManager
     {
-        void UploadFiles(Document doc, HttpPostedFile httpPostedFile);
+        void UploadFiles(Document doc, Stream stream );
         IQueryable<Document> GetAllDocuments(string userId);
         Document GetDocument(string docId);
-        byte[] ReadFileContent(string filePath);
         void UpdateLastAccessDate(Guid docId);
 
     }

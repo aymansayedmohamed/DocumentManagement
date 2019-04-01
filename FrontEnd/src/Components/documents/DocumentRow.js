@@ -10,7 +10,7 @@ const DocumentRow = ({file}) => {
 
     return (
         <tr>
-            <td><button onClick={dowloadDocument}>Dowload</button></td>
+            <td><button className="btn" onClick={dowloadDocument}>Dowload</button></td>
             <td>{file.DocumentName}</td>
             <td>{file.DocumentSize}</td>
             <td>{file.UploadDate}</td>

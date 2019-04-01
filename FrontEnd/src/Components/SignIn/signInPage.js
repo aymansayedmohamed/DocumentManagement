@@ -2,7 +2,7 @@ import React , {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import SignInForm from './signInForm';
-import * as fileActions from '../../actions/fileActions';
+import * as authActions from '../../actions/authActions';
 
 export class SignInPage extends React.Component{
 
@@ -83,7 +83,7 @@ function mapStateToProps(state , ownProps){
 }
 function mapDispatchToProps(dispatch){
     return{
-    actions : bindActionCreators(fileActions, dispatch)
+    actions : bindActionCreators(authActions, dispatch)
     };
 }
 export default connect(mapStateToProps,mapDispatchToProps)(SignInPage);

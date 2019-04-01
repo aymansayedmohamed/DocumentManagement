@@ -5,7 +5,6 @@ using System;
 using System.Configuration;
 using System.IO;
 using System.Linq;
-using System.Web;
 using ViewModels;
 namespace Business
 {
@@ -13,16 +12,16 @@ namespace Business
     {
 
         private readonly ILogger logger;
+        private readonly IFileHelper fileHelper;
         private IRepository<DomainModels.Document> repoDocuments;
 
 
-        public DocumentManager(ILogger logger, IRepository<DomainModels.Document> repoDocuments)
+        public DocumentManager(ILogger logger, IRepository<DomainModels.Document> repoDocuments, IFileHelper fileHelper)
         {
             this.logger = logger;
+            this.fileHelper = fileHelper;
             this.repoDocuments = repoDocuments;
         }
-
-
 
         public IQueryable<Document> GetAllDocuments(string userId)
         {
@@ -45,9 +44,9 @@ namespace Business
 
         public void UpdateLastAccessDate(Guid docId)
         {
-            var now = DateTime.Now;
+            DateTime now = DateTime.Now;
 
-            var DomainDoc = repoDocuments.Find(docId);
+            DomainModels.Document DomainDoc = repoDocuments.Find(docId);
             DomainDoc.LastAccessedDate = now;
 
             repoDocuments.SaveChanges();
@@ -56,33 +55,49 @@ namespace Business
 
         public Document GetDocument(string docId)
         {
-            var document = (
-                             from doc in repoDocuments.GetAll()
-                             .Where(O => O.DocumentID == new Guid(docId) && O.IsDeleted == false)
-                             select new ViewModels.Document()
-                             {
-                                 DocumentID = doc.DocumentID,
-                                 DocumentSize = doc.DocumentSize,
-                                 LastAccessedDate = doc.LastAccessedDate,
-                                 UploadDate = doc.UploadDate,
-                                 UploadUserId = doc.UploadUserId,
-                                 DocumentName = doc.DocumentName,
-                             }).FirstOrDefault();
+            if (string.IsNullOrWhiteSpace(docId))
+            {
+                throw new ArgumentNullException("DocumentId sholdun't be null");
+            }
+            else
+            {
+                Document document = (
+                                from doc in repoDocuments.GetAll()
+                                .Where(O => O.DocumentID == new Guid(docId) && O.IsDeleted == false)
+                                select new ViewModels.Document()
+                                {
+                                    DocumentID = doc.DocumentID,
+                                    DocumentSize = doc.DocumentSize,
+                                    LastAccessedDate = doc.LastAccessedDate,
+                                    UploadDate = doc.UploadDate,
+                                    UploadUserId = doc.UploadUserId,
+                                    DocumentName = doc.DocumentName,
+                                }).FirstOrDefault();
 
-            document.FilePath = GetDocumentSavePath(document.UploadUserId, document.DocumentName);
+                if (document != null)
+                {
+                    document.FilePath = fileHelper.GetDocumentSavePath(document?.UploadUserId, document?.DocumentName);
+                }
 
-            return document;
+                return document;
+            }
 
         }
 
-        public void UploadFiles(Document doc, HttpPostedFile httpPostedFile)
+        public void UploadFiles(Document doc, Stream stream)
         {
-            if (httpPostedFile != null)
+            if (stream != null)
             {
-                string documentSavePath = GetDocumentSavePath(doc.UploadUserId, httpPostedFile?.FileName);
+                string documentSavePath = fileHelper.GetDocumentSavePath(doc.UploadUserId, doc.DocumentName);
 
                 // Save the uploaded file to "UploadedFiles" folder
-                httpPostedFile.SaveAs(documentSavePath);
+                using (stream)
+                {
+                    using (FileStream fileStream = File.Create(documentSavePath))
+                    {
+                        stream.CopyTo(fileStream);
+                    }
+                }
 
                 //Save the Document to the database
                 DateTime now = DateTime.Now;
@@ -94,7 +109,7 @@ namespace Business
                     IsDeleted = false,
                     LastAccessedDate = now,
                     UploadDate = now,
-                    DocumentName = httpPostedFile?.FileName
+                    DocumentName = doc.DocumentName
                 };
 
                 repoDocuments.Add(document);
@@ -106,40 +121,9 @@ namespace Business
             }
         }
 
-        public byte[] ReadFileContent(string filePath)
-        {
-            if (!File.Exists(filePath))
-            {
-                throw new FileNotFoundException($"Document not found at {filePath}");
-            }
+       
 
-            //Read the File into a Byte Array.
-            byte[] bytes = File.ReadAllBytes(filePath);
-            return bytes;
-        }
-
-        private string GetDocumentSavePath(string userId, string fileName)
-        {
-            // Get the complete file path
-            string localDirectoryPath = ConfigurationManager.AppSettings["LocalDirectory"];
-            logger.AddInformationLog($"LocalDirectory config value: {localDirectoryPath}");
-
-            string documentSaveDirectoryPath = Path.Combine(localDirectoryPath, userId);
-
-            DirectoryInfo documentSaveDirectory = new DirectoryInfo(documentSaveDirectoryPath);
-
-            if (!documentSaveDirectory.Exists)
-            {
-                logger.AddInformationLog($"{documentSaveDirectory} :  not exists.");
-
-                documentSaveDirectory.Create();
-
-                logger.AddInformationLog($"{documentSaveDirectory} :  is created.");
-            }
-
-            return Path.Combine(documentSaveDirectoryPath, fileName);
-
-        }
+        
 
 
     }

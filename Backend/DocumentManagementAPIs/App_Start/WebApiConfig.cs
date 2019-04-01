@@ -13,7 +13,8 @@ namespace DocumentManagementAPIs
     {
         public static void Register(HttpConfiguration config)
         {
-            config.EnableCors();
+            var corsAttr = new System.Web.Http.Cors.EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(corsAttr);
             config.MessageHandlers.Add(new LogRequestAndResponseHandler(new FileLogger()));
 
 

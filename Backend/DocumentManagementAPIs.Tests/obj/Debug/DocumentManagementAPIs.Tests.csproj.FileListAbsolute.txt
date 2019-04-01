@@ -84,3 +84,6 @@ D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\Docum
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\obj\Debug\DocumentManagementAPIs.Tests.csproj.CopyComplete
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\obj\Debug\DocumentManagementAPIs.Tests.dll
 D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\obj\Debug\DocumentManagementAPIs.Tests.pdb
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\CV\Interviews\FRISS\2nd phase Assesment task\DocumentManagement\Backend\DocumentManagementAPIs.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll

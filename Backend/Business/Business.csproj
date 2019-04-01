@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountManager.cs" />
+    <Compile Include="FileHelper.cs" />
     <Compile Include="DocumentManager .cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
