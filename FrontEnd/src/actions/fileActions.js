@@ -8,27 +8,6 @@ export function loadDocumentsSuccess(files){
     return{type: types.LOAD_DOCUMENTS_SUCCESS, files};
 }
 
-export function signInSUCCESS(token){
-    debugger;
-    return {type: types.Sign_In_SUCCESS, token};
-}
-
-
-
-
-export function signIn(user){
-    debugger
-    return function(dispatch){
-        
-        return authApi.signIn(user).then(Response =>{
-            localStorage.setItem('token', Response.data.access_token);
-            dispatch(signInSUCCESS(Response.data.access_token));
-        }).catch(error => {
-            debugger;
-            throw(error);
-        });
-    };
-}
 
 export function loadDocuments(){
     return function(dispatch){

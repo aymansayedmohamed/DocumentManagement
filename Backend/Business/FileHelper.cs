@@ -53,6 +53,20 @@ namespace Business
             return bytes;
         }
 
+        public void SaveFile(Stream stream, string path)
+        {
+            logger.AddInformationLog($"File Path: {path}");
+
+            using (stream)
+            {
+                using (FileStream fileStream = File.Create(path))
+                {
+                    stream.CopyTo(fileStream);
+                    logger.AddInformationLog("File Saved Success");
+                }
+            }
+        }
+
 
     }
 }

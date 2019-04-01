@@ -13,6 +13,8 @@ namespace IBusiness
     {
          string GetDocumentSavePath(string userId, string fileName);
         byte[] ReadFileContent(string filePath);
+        void SaveFile(Stream stream, string path);
+
 
     }
 }

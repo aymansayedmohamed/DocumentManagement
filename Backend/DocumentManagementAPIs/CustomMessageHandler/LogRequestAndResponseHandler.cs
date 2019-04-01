@@ -16,14 +16,12 @@ namespace DocumentManagementAPIs
             HttpRequestMessage request, CancellationToken cancellationToken)
         {
             // log request body
-            //string requestBody = await request.Content.ReadAsStringAsync();
             logger.AddInformationLog($"Request: {request}");
 
             // let other handlers process the request
             HttpResponseMessage result = await base.SendAsync(request, cancellationToken);
 
             // once response body is ready, log it
-            //var responseBody = await result.Content.ReadAsStringAsync();
             logger.AddInformationLog($"Response: {result}");
 
             return result;
