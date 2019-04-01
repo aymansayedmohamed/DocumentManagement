@@ -4,9 +4,9 @@ import{mount,shallow} from 'enzyme';
 import TestUtils from 'react-addons-test-utils';
 import DocumentsList from './DocumentsList';
 
-function setup(files){
+function setup(documents){
     let props ={
-        files: files
+        documents: documents
     };
 
     return shallow(<DocumentsList {...props}/>);
@@ -21,7 +21,8 @@ it('DocumentsList renders table',() => {
 });
 
 
-it('DocumentsList renders number of row equal to the files count',() => {
+it('DocumentsList renders number of row equal to the documents count',() => {
+    debugger;
     const wrapper = setup([{},{}]);
     expect(wrapper.find('DocumentRow').length).toBe(2);
 

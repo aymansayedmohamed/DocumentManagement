@@ -58,6 +58,7 @@ export class SignInPage extends React.Component{
                 user={this.state.user}
                 errors={this.state.errors}
                 />
+                <label className="text-red">{this.props.error}</label>
              </div>
          );
     }
@@ -76,8 +77,9 @@ SignInPage.propTypes ={
 
 function mapStateToProps(state , ownProps){
     
-    let user = {Sources:""};
+    let user = {UserName:""};
     return{
+        error: state.error,
         user: user
     };
 }

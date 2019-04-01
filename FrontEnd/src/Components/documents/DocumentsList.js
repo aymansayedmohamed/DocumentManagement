@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 import DocumentRow from './DocumentRow';
 
-const DocumentsList = ({files}) => {
+const DocumentsList = ({documents}) => {
     
     return(
         <table className="table table-striped">
@@ -17,7 +17,7 @@ const DocumentsList = ({files}) => {
         <tbody>
             {
                 
-                files.map(file => 
+                documents.map(file => 
                     <DocumentRow key = {file.DocumentID} file ={file}/>
                     )
                 
@@ -29,7 +29,7 @@ const DocumentsList = ({files}) => {
 };
 
 DocumentsList.propTypes = {
-    files: PropTypes.array.isRequired
+    documents: PropTypes.array.isRequired
 };
 
 export default DocumentsList;

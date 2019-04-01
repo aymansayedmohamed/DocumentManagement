@@ -2,7 +2,7 @@ import axios from 'axios';
 
 class FilesApi {
 
-  static uploadFile(file){
+  static uploadDocument(file){
 
     return axios.post('http://localhost:64339/api/Documents/UploadDocument', file,
                     {

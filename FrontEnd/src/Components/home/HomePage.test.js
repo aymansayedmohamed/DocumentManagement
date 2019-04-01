@@ -16,7 +16,7 @@ describe('HomePage component tests', () => {
 
 it('HomePage renders correct title data',() => {
     const wrapper = setup();
-    expect(wrapper.find('h1').get(0).props.children).toEqual('Download Utility');
+    expect(wrapper.find('h1').get(0).props.children).toEqual('Document Management System');
 });
 
 

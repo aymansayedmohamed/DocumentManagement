@@ -7,6 +7,10 @@ export function signInSUCCESS(token){
     return {type: types.Sign_In_SUCCESS, token};
 }
 
+export function signInFailed(error){
+    return {type: types.SIGN_IN_FAILED, error};
+}
+
 
 
 
@@ -19,7 +23,7 @@ export function signIn(user){
             dispatch(signInSUCCESS(Response.data.access_token));
         }).catch(error => {
             debugger;
-            throw(error);
+            dispatch(signInFailed("Wrong user name or password."));
         });
     };
 }

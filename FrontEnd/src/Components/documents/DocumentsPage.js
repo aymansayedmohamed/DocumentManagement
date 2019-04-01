@@ -14,14 +14,14 @@ class DocumentsPage extends React.Component{
    
 
     render(){
-        //const {files} = this.props;
+        //const {documents} = this.props;
         return(
             <div>
                 <br/>
-                <div className="text-right">
+                <label className="text-danger">{this.props.error}</label>
+                <br/>
                 <Uploader/>
-                </div>
-                <DocumentsList files={this.props.files}/>                
+                <DocumentsList documents={this.props.documents}/>                
             </div>
         );
     }
@@ -29,12 +29,13 @@ class DocumentsPage extends React.Component{
 
 DocumentsPage.propTypes = {
     actions: PropTypes.object.isRequired,
-    files: PropTypes.array.isRequired
+    documents: PropTypes.array.isRequired
 };
 
 function mapStateToProps(state, ownProps){
     return {
-        files : state.files
+        documents : state.documents,
+        error : state.error
     };
 }
 

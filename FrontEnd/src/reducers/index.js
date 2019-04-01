@@ -1,10 +1,13 @@
 import {combineReducers} from 'redux';
-import files from './fileReducer';
+import documents from './fileReducer';
 import token from './AuthReducer';
+import error from './errorReducer';
+
 
 const rootReducer = combineReducers({
-    files,
-    token
+    documents,
+    token,
+    error
 });
 
 export default rootReducer;

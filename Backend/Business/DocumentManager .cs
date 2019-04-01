@@ -124,6 +124,9 @@ namespace Business
 
                 logger.AddInformationLog("Document meta data saved to the database");
 
+                doc.DocumentID = document.DocumentID;
+                doc.LastAccessedDate = document.LastAccessedDate;
+                doc.UploadDate = document.UploadDate;
 
             }
         }

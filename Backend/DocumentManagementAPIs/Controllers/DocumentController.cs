@@ -67,19 +67,19 @@ namespace DocumentManagementAPIs.Controllers
             {
                 logger.AddErrorLog(argNullEx.Message, argNullEx);
 
-                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, argNullEx);
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, argNullEx.Message);
             }
             catch (FileNotFoundException fileNotFoundEx)
             {
                 logger.AddErrorLog(fileNotFoundEx.Message, fileNotFoundEx);
 
-                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, fileNotFoundEx);
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, fileNotFoundEx.Message);
             }
             catch (Exception ex)
             {
                 logger.AddErrorLog(ex);
 
-                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
 
         }
@@ -102,7 +102,7 @@ namespace DocumentManagementAPIs.Controllers
             {
                 logger.AddErrorLog(ex);
 
-                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
 
@@ -114,13 +114,14 @@ namespace DocumentManagementAPIs.Controllers
         {
             try
             {
+                Document document = null;
                 if (HttpContext.Current.Request.Files.AllKeys.Any())
                 {
                     // Get the uploaded image from the Files collection
-                    HttpPostedFile httpPostedFile = HttpContext.Current.Request.Files["UploadedImage"];
+                    HttpPostedFile httpPostedFile = HttpContext.Current.Request.Files["UploadedDocument"];
                     string userId = accountManager.GetUserId(User.Identity.Name);
 
-                    Document document = new Document()
+                     document = new Document()
                     {
                         UploadUserId = userId,
                         DocumentSize = httpPostedFile.ContentLength,
@@ -130,7 +131,7 @@ namespace DocumentManagementAPIs.Controllers
                     documentManager.UploadFiles(document, httpPostedFile.InputStream);
                 }
 
-                return Request.CreateResponse(HttpStatusCode.OK);
+                return Request.CreateResponse(HttpStatusCode.OK, document);
             }
 
             catch (Exception ex)
@@ -138,7 +139,7 @@ namespace DocumentManagementAPIs.Controllers
                 //log exception details
                 logger.AddErrorLog(ex);
 
-                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex);
+                return Request.CreateErrorResponse(HttpStatusCode.InternalServerError, ex.Message);
             }
         }
 

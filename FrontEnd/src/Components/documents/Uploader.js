@@ -1,30 +1,54 @@
-import React, { Component } from 'react';
+import React, {PropTypes} from 'react';
+import {connect} from 'react-redux';
 import fileApi from '../../api/filesApi';
+import {bindActionCreators} from 'redux';
+import * as fileActions from '../../actions/fileActions';
 
-function Uploader () {
 
-  function handleUploadFile(event) {
+class Uploader extends React.Component{
+
+  constructor(props, context){
+      super(props,context);
+      this.handleUploadFile = this.handleUploadFile.bind(this);
+  }
+
+
+  handleUploadFile(event) {
  
     const data = new FormData();
-    data.append('UploadedImage', event.target.files[0]);
-    data.append('name', 'UploadedImage');
-    data.append('description', 'UploadedImage');
-    fileApi.uploadFile(data).then((response) => {
-      debugger;
-      console.log(response); // do something with the response
-    });
-
-  
-   
+    data.append('UploadedDocument', event.target.files[0]);
+    data.append('name', 'UploadedDocument');
+    data.append('description', 'UploadedDocument');
+    this.props.actions.uploadDocument(data);
 }
 
 
-  return(
-  <div>
-    <input type="file"  onChange={handleUploadFile} />
-  </div>
-  );
+render(){
+    return(
+      <div>
+        <input type="file"  onChange={this.handleUploadFile} />
+      </div>
+    );
+}
 
 }
 
-export default Uploader;
+
+Uploader.propTypes = {
+  actions: PropTypes.object.isRequired
+};
+
+function mapStateToProps(state, ownProps){
+  debugger;
+  return {
+      document : state.document
+  };
+}
+
+function mapDispatchToProps(dispatch){
+  return{
+      actions : bindActionCreators(fileActions,dispatch)
+  };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Uploader);

@@ -1,27 +1,53 @@
 import React, {PropTypes} from 'react';
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
 import * as fileActions from '../../actions/fileActions';
 
-const DocumentRow = ({file}) => {
+class DocumentRow extends React.Component{
 
-    function dowloadDocument(event){
+    constructor(props, context){
+        super(props,context);
+        this.dowloadDocument = this.dowloadDocument.bind(this);
+    }
+  
+
+     dowloadDocument(event){
+         debugger;
         event.preventDefault();
-        fileActions.downloadDocument(file);
+        this.props.actions.downloadDocument(this.props.file);
     }
 
+    render(){
     return (
         <tr>
-            <td><button className="btn" onClick={dowloadDocument}>Dowload</button></td>
-            <td>{file.DocumentName}</td>
-            <td>{file.DocumentSize}</td>
-            <td>{file.UploadDate}</td>
-            <td>{file.LastAccessedDate}</td>
+            <td><button className="btn" onClick={this.dowloadDocument}>Dowload</button></td>
+            <td>{this.props.file.DocumentName}</td>
+            <td>{this.props.file.DocumentSize}</td>
+            <td>{this.props.file.UploadDate}</td>
+            <td>{this.props.file.LastAccessedDate}</td>
 
         </tr>
     );
-};
+    }
+}
+
+
 
 DocumentRow.propTypes = {
+    actions: PropTypes.object.isRequired,
     file : PropTypes.object.isRequired 
-};
 
-export default DocumentRow;
+  };
+  
+  function mapStateToProps(state, ownProps){
+    return {
+    };
+  }
+  
+  function mapDispatchToProps(dispatch){
+    return{
+        actions : bindActionCreators(fileActions,dispatch)
+    };
+  }
+  
+  export default connect(mapStateToProps, mapDispatchToProps)(DocumentRow);
