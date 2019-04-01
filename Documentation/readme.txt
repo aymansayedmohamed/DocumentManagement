@@ -20,3 +20,7 @@ Frontend
 		* npm install           [to download the packages]
 		* npm start             [to run the project]
 		* npm run test:watch    [to run the test cases]
+		
+To login use the below credintials as admin user role
+         - username = TEST@TEST.TEST
+	 - password = Samplestring_2
